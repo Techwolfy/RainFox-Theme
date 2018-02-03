@@ -1,0 +1,97 @@
+/*AGENT_SHEET*/
+
+/* Reduce popup animation fade time */
+popup, menupopup, panel {
+	transition-duration: 0.01ms !important;
+}
+
+
+/* Dark website identitity popup */
+#identity-popup-mainView {
+	color: var(--lwt-text-color) !important;
+	background: var(--url-and-searchbar-background-color) !important;
+}
+/* Identity popup icons
+#identity-popup-security-content {}
+#tracking-protection-content {}
+#identity-popup-permissions-content {}*/
+
+
+/* Dark downloads panel */
+photonpanelmultiview panelview {
+    background: var(--url-and-searchbar-background-color) !important;
+    color: var(--lwt-text-color) !important;
+}
+#emptyDownloads {
+    background: var(--url-and-searchbar-background-color) !important;
+    color: var(--lwt-text-color) !important;
+}
+#downloadsFooterButtons {
+    background: var(--toolbar-bgcolor) !important;
+    color: var(--lwt-text-color) !important;
+}
+
+
+/* Dark arrow panels (e.g. Firefox menu) */
+.panel-arrow {
+	filter: invert(72%) !important;
+}
+.panel-arrowcontent, .panel-subview-body, #appMenu-zoomReset-button, .subviewbutton {
+	color: var(--lwt-text-color) !important;
+	background-color: var(--url-and-searchbar-background-color) !important;
+}
+.panel-subview-footer,[class^="PanelUI-"] {
+	color: var(--lwt-text-color) !important;
+	background: var(--toolbar-bgcolor) !important;
+}
+.subviewbutton::after, .subviewbutton-nav::after {
+	color: var(--lwt-text-color) !important;
+	fill: var(--lwt-text-color) !important;
+	filter: opacity(.5) !important;
+}
+.panel-arrowcontent > textbox {
+	color: var(--lwt-text-color) !important;
+	background: var(--toolbar-bgcolor) !important;`
+}
+
+
+/* Darken right-click menus and bookmarks toolbar dropdowns */
+menupopup, popup,
+popup > menu > menupopup,
+menupopup > menu > menupopup {
+	-moz-appearance: none !important;
+	background: hsl(240, 1%, 20%) /* var(--toolbar-bgcolor) */ !important;
+	border: 1px solid black !important;
+	/*padding: 4px 0px 4px 0px  !important;*/
+}
+menupopup menuseparator {
+	-moz-appearance: none !important;
+	background: white /*var(--lwt-text-color) */ !important;
+	filter: opacity(.5);
+	/*margin: 3px 10px 3px 10px !important;*/
+	padding: 0 !important;
+	border-top: none !important;
+	border-color: transparent !important;
+}
+menugroup {
+	background: hsl(240, 1%, 20%) /* var(--toolbar-bgcolor) */ !important;
+}
+menupopup menu, menuitem {
+	color: white /* var(--lwt-text-color) */ !important;
+	/*filter: opacity(.75);*/
+}
+menupopup menu:hover, menuitem:hover {
+	color: white /* var(--lwt-text-color) */ !important;
+	background: hsl(240, 1%, 20%) /* var(--toolbar-bgcolor) */ !important;
+	/*filter: opacity(.75);;*/
+}
+.menu-accel {
+	color: white /* var(--lwt-text-color) */ !important;
+	filter: opacity(.5) !important;
+}
+menuitem > .menu-iconic-left, menuitem:hover > .menu-iconic-left {
+	filter: none !important;
+}
+menuitem[disabled] {
+	filter: opacity(.5) !important;
+}

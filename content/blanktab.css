@@ -1,0 +1,8 @@
+/*AGENT_SHEET*/
+
+/* Dark empty tab page */
+@-moz-document url(about:blank) {
+	html {
+		background: url(chrome://global/skin/media/imagedoc-darknoise.png) !important;
+	}
+}

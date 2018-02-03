@@ -1,0 +1,12 @@
+/*AGENT_SHEET*/
+
+@import url(./css/chrome_custom.css);
+@import url(./css/appicon.css);
+@import url(./css/tabs.css);
+@import url(./css/toolbars.css);
+@import url(./css/menus.css);
+@import url(./css/popups.css);
+@import url(./css/misc.css);
+@import url(./css/sidebar.css);
+
+/* TODO: scrollbars */

@@ -1,0 +1,67 @@
+/*AGENT_SHEET*/
+
+/* Decrease location bar font size in compact mode */
+#main-window[uidensity="compact"] :-moz-any(.searchbar-textbox, #urlbar) {
+  font-size: 12px !important;
+}
+
+/* Move location bar dropmarker to end */
+.urlbar-history-dropmarker {
+	-moz-box-ordinal-group: 100 !important;
+}
+
+/* Decrease location bar identity box padding (note: arrowpanel popup is not offset! fix?) */
+#identity-box {
+  padding-inline-start: 4px !important;
+}
+
+/* Decrease location bar icon size in compact mode */
+#main-window[uidensity="compact"] .urlbar-icon {
+  width: 22px !important;
+  height: 22px !important;
+  padding: 3px !important;
+}
+
+/* Decrease search box icon padding in compact node */
+#main-window[uidensity="compact"] .searchbar-search-icon {
+  margin-inline-start: 4px !important;
+  margin-inline-end: 4px !important;
+}
+
+/* Make location bar dropmarker always visible */
+#urlbar .autocomplete-history-dropmarker,
+#urlbar .urlbar-history-dropmarker,
+#urlbar:not(:hover) > .urlbar-textbox-container > .urlbar-history-dropmarker {
+  opacity: 1 !important;
+}
+
+
+/* Old bookmarks toolbar height */
+#PersonalToolbar {
+	min-height: 26px !important;
+}
+
+/* Old toolbar padding */
+#navigator-toolbox > toolbar:not(#toolbar-menubar):not(#TabsToolbar):not(#nav-bar) {
+	padding: 0px !important;
+}
+
+
+/* Dark find bar textbox */
+.findbar-textbox {
+	color: var(--lwt-text-color) !important;
+	background: var(--url-and-searchbar-background-color) !important;
+}
+
+/* Flat find bar buttons */
+.findbar-find-previous, .findbar-find-next {
+    border: none !important;
+    background: none !important;
+    border-radius: 2px !important;
+}
+.findbar-find-previous {
+	margin-left: 6px !important;
+}
+.findbar-find-previous:hover, .findbar-find-next:hover {
+	background: var(--toolbarbutton-hover-background)  !important;
+}

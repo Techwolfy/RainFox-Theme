@@ -1,0 +1,72 @@
+/*AGENT_SHEET*/
+/* Note: arrow panels are styled in menus.css */
+
+/* Dark autocomplete popup borders */
+#PopupAutoCompleteRichResult, #PopupSearchAutoComplete, #PopupAutoComplete {
+	border: 1px solid black !important
+}
+
+
+/* Dark location bar autocomplete popup */
+#PopupAutoCompleteRichResult .ac-title-text, #PopupAutoCompleteRichResult .ac-action-text {
+	color: var(--lwt-text-color) !important;
+	filter: opacity(.75) !important;
+}
+#PopupAutoCompleteRichResult .autocomplete-richlistbox {
+	background: var(--url-and-searchbar-background-color) !important;
+}
+
+/* Fix location bar autocomplete popup width */
+#PopupAutoCompleteRichResult {
+	margin-left: 0px !important;
+}
+#PopupAutoCompleteRichResult .autocomplete-richlistitem {
+	padding-left: 5px !important;
+}
+#PopupAutoCompleteRichResult .ac-type-icon {
+	display: none !important;
+}
+#PopupAutoCompleteRichResult .autocomplete-richlistbox {
+	width: auto !important;
+	max-width: 75vw !important;
+}
+
+
+/* Dark search bar autocomplete popup */
+#PopupSearchAutoComplete .search-panel-one-offs,
+#PopupSearchAutoComplete .searchbar-engine-one-off-item,
+#PopupSearchAutoComplete .search-panel-tree {
+	color: var(--url-and-searchbar-background-color) !important;
+	background-color: var(--lwt-text-color) !important;
+}
+#PopupSearchAutoComplete .search-panel-header,
+#PopupSearchAutoComplete .addengine-item {
+	border-color: rgba(255,255,255,.5) !important;
+}
+#PopupSearchAutoComplete .search-panel-header:not(:hover):not([selected]),
+#PopupSearchAutoComplete .addengine-item:not(:hover):not([selected]),
+#PopupSearchAutoComplete .search-panel-input-value {
+	color: var(--lwt-text-color) !important;
+	background-color: var(--url-and-searchbar-background-color) !important;
+}
+#PopupSearchAutoComplete .search-panel-header:hover,
+#PopupSearchAutoComplete .addengine-item:hover {
+	color: var(--lwt-text-color) !important;
+	background: linear-gradient(var(--url-and-searchbar-background-color), var(--url-and-searchbar-background-color)), linear-gradient(rgba(0,127,255,.4), rgba(0,127,255,.4)) !important;
+	background-blend-mode: multiply !important;
+}
+
+
+/* Dark textbox autocomplete popup */
+#PopupAutoComplete .autocomplete-richlistitem .ac-title-text {
+	color: var(--lwt-text-color) !important;
+}
+#PopupAutoComplete .autocomplete-richlistbox,
+#PopupAutoComplete .autocomplete-richlistitem:not(:hover):not([selected]) {
+	background: var(--toolbar-bgcolor) !important;
+}
+#PopupAutoComplete .autocomplete-richlistitem:hover,
+#PopupAutoComplete .autocomplete-richlistitem[selected] {
+	background-color: rgba(0,127,255,.4) !important;
+	background-blend-mode: multiply !important;
+}
