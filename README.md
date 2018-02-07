@@ -15,7 +15,7 @@ Installation
 Credits
 -------
 Inspired by [FT DeepDark](https://addons.mozilla.org/en-US/firefox/addon/ft-deepdark/) by Steva Rosselli. FT DeepDark theme is far more comprehensive than this theme, but is incompatible with Firefox Quantum due to Mozilla's deprecation of XUL-based browser extensions.
-Some code originated from Aris's set of [userChrome.css tweaks](https://github.com/aris-t2/customcssforfx) and his legacy [Classic Theme Restorer](https://addons.mozilla.org/en-US/firefox/addon/classicthemerestorer/) plugin, and from Izheil's [Firefox 57 full dark theme](https://github.com/Izheil/Firefox-57-full-dark-theme-with-scrollbars).
+Some code originated from Aris's set of [userChrome.css tweaks](https://github.com/aris-t2/customcssforfx) and his legacy [Classic Theme Restorer](https://addons.mozilla.org/en-US/firefox/addon/classicthemerestorer/) plugin, and from Izheil's [Firefox 57 full dark theme](https://github.com/Izheil/Firefox-57-full-dark-theme-with-scrollbars). The JavaScript injector is based on Sporif's [Firefox Quantum userChromeJS](https://github.com/Sporif/firefox-quantum-userchromejs).
 
 
 License

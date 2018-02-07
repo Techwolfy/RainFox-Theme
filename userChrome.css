@@ -9,4 +9,7 @@
 @import url(./css/misc.css);
 @import url(./css/sidebar.css);
 
-/* TODO: scrollbars */
+/* Load custom JavaScript within the browser context (for custom scrollbars) */
+#alltabs-button {
+	-moz-binding: url("./loader.xml#js");
+}
