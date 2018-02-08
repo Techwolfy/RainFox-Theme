@@ -83,15 +83,26 @@ menupopup menu, menuitem {
 menupopup menu:hover, menuitem:hover {
 	color: white /* var(--lwt-text-color) */ !important;
 	background: hsl(240, 1%, 20%) /* var(--toolbar-bgcolor) */ !important;
-	/*filter: opacity(.75);;*/
+	/*filter: opacity(.75);*/
 }
 .menu-accel {
 	color: white /* var(--lwt-text-color) */ !important;
 	filter: opacity(.5) !important;
 }
-menuitem > .menu-iconic-left, menuitem:hover > .menu-iconic-left {
-	filter: none !important;
+
+/* Dim menu text and disabled menuitems */
+menuitem > .menu-iconic-text, menuitem:hover > .menu-iconic-text {
+	filter: opacity(.8) !important;
 }
-menuitem[disabled] {
+menu[disabled], menuitem[disabled] {
+	-moz-appearance: none !important;
+	filter: opacity(.5) !important;
+}
+menu[disabled]:hover, menuitem[disabled]:hover {
+	background: rgba(0,127,255,.4) !important;
+}
+
+/* Dim bookmarks for unloaded tabs */
+menuitem[pending] > .menu-iconic-text {
 	filter: opacity(.5) !important;
 }
