@@ -17,17 +17,19 @@ scrollbar[orient="horizontal"], scrollbar[orient="horizontal"] * {
 }
 
 scrollbar thumb {
-	background: rgb(71, 71, 73) /* var(--url-and-searchbar-background-color) */ !important;
+	/*background: rgb(71, 71, 73) /* var(--url-and-searchbar-background-color) */ /*!important;*/
+	background: rgb(121, 121, 123) !important;
 }
 scrollbar thumb:hover, scrollbar thumb:active {
-	background-color: rgba(0,127,255,.6) !important;
+	background-color: rgba(0,127,255,.8) !important;
 	background-blend-mode: multiply !important;
 }
 
 scrollbar scrollbarbutton {
-	background-color: rgb(71, 71, 73) /* var(--url-and-searchbar-background-color) */ !important;
+	/*background: rgb(71, 71, 73) /* var(--url-and-searchbar-background-color) */ /*!important;*/
+	background: rgb(121, 121, 123) !important;
 }
 scrollbar scrollbarbutton:hover, scrollbar scrollbarbutton:active {
-	background-color: rgba(0,127,255,.6) !important;
+	background-color: rgba(0,127,255,.8) !important;
 	background-blend-mode: multiply !important;
 }
