@@ -2,6 +2,8 @@ RainFox Theme
 =============
 A cool dark theme with blue highlights for Firefox Quantum (v57+).
 
+![Preview](preview.png)
+
 
 Installation
 ------------
