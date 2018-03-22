@@ -6,11 +6,11 @@ tabbrowser tabpanels {
 	background: url(chrome://global/skin/media/imagedoc-darknoise.png) !important;
 }
 
-/* Dark tooltips */
+/* Dark alerts (NB: theme variables don't work in devtools) */
 tooltip, statuspanel .statuspanel-label {
 	-moz-appearance: none !important;
-	background-color: var(--toolbar-bgcolor) !important;
-	color: var(--lwt-text-color) !important;
+	background-color: hsl(240, 1%, 20%) /* var(--toolbar-bgcolor) */ !important;
+	color: #DDDDDD !important;
 	border-color: black !important;
 }
 

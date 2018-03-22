@@ -11,14 +11,10 @@ popup, menupopup, panel {
 	color: var(--lwt-text-color) !important;
 	background: var(--url-and-searchbar-background-color) !important;
 }
-/* Identity popup icons
-#identity-popup-security-content {}
-#tracking-protection-content {}
-#identity-popup-permissions-content {}*/
 
 
 /* Dark downloads panel */
-photonpanelmultiview panelview {
+panelmultiview panelview {
     background: var(--url-and-searchbar-background-color) !important;
     color: var(--lwt-text-color) !important;
 }
@@ -56,6 +52,7 @@ photonpanelmultiview panelview {
 
 
 /* Darken right-click menus and bookmarks toolbar dropdowns */
+/* (NB: theme variables don't work in devtools) */
 menupopup, popup,
 popup > menu > menupopup,
 menupopup > menu > menupopup {
