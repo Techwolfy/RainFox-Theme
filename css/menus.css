@@ -9,13 +9,13 @@ popup, menupopup, panel {
 /* Dark website identitity popup */
 #identity-popup-mainView {
 	color: var(--lwt-text-color) !important;
-	background: var(--url-and-searchbar-background-color) !important;
+	background: hsl(240, 1%, 20%) /* var(--toolbar-bgcolor) */ !important;
 }
 
 
 /* Dark downloads panel */
-panelmultiview panelview {
-    background: var(--url-and-searchbar-background-color) !important;
+panelmultiview panelview richlistbox {
+	background: hsl(240, 1%, 20%) /* var(--toolbar-bgcolor) */ !important;
     color: var(--lwt-text-color) !important;
 }
 #emptyDownloads {
