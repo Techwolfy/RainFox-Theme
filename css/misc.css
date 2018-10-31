@@ -1,22 +1,21 @@
 /*AGENT_SHEET*/
 
-
 /* Dark background while loading page */
 tabbrowser tabpanels {
 	background: url(chrome://global/skin/media/imagedoc-darknoise.png) !important;
 }
 
-/* Dark alerts (NB: theme variables don't work in devtools) */
+
+/* Dark alerts */
 tooltip, statuspanel .statuspanel-label {
 	-moz-appearance: none !important;
-	background-color: hsl(240, 1%, 20%) /* var(--toolbar-bgcolor) */ !important;
+	background-color: hsl(240, 1%, 20%) !important;
 	color: #DDDDDD !important;
 	border-color: black !important;
 }
 
-/* Dark alerts (NB: theme variables don't work here) */
 #alertBox {
 	-moz-appearance: none !important;
-	background: hsl(240, 1%, 20%) /* var(--toolbar-bgcolor) */ !important;
+	background: hsl(240, 1%, 20%) !important;
 	color: #DDDDDD !important;
 }

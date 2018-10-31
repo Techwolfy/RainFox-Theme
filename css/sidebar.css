@@ -4,8 +4,8 @@
 #bookmarksPanel, #bookmarks-view,
 #history-panel, #historyTree,
 #viewButton {
-	background: var(--toolbar-bgcolor) !important;
-	color: var(--lwt-text-color) !important;
+	background: hsl(240, 1%, 20%) !important;
+	color: white !important;
 }
 
 .sidebar-placesTreechildren::-moz-tree-cell(hover),
@@ -13,8 +13,8 @@
 .sidebar-placesTreechildren::-moz-tree-cell-text(hover),
 .sidebar-placesTreechildren::-moz-tree-cell-text(selected),
 #viewButton:hover {
-	background: var(--toolbar-bgcolor) !important;
-	color: var(--lwt-text-color) !important;
+	background: hsl(240, 1%, 20%) !important;
+	color: white !important;
 }
 
 /* Sidebar border color */

@@ -2,26 +2,26 @@
 
 /* Standard tab text color */
 #TabsToolbar .tabbrowser-tab .tab-label {
-	color: var(--lwt-text-color) !important;
+	color: white !important;
 	filter: opacity(80%) !important;
 }
 
 /* Unloaded tab faded text and image */
 #TabsToolbar .tabbrowser-tab[pending] {
-	color: var(--lwt-text-color) !important;
+	color: white !important;
 	filter: opacity(50%) !important;
 }
 
 /* Selected tab blue font color */
 #TabsToolbar .tabbrowser-tab[selected] .tab-label {
-	color: rgb(0,173,238) !important;
+	color: rgb(0, 173, 238) !important;
 	font-weight: bold !important;
-	text-shadow: 0px 0px 5px rgba(0,173,238,.75) !important;
+	text-shadow: 0px 0px 5px rgba(0, 173, 238, .75) !important;
 }
 
 /* Unread tab background blue tint */
 #TabsToolbar .tabbrowser-tab[titlechanged] > .tab-stack > .tab-background {
-	background-color: rgba(0,127,255,.2) !important;
+	background-color: rgba(0, 127, 255, .2) !important;
 	background-blend-mode: multiply !important;
 }
 
@@ -58,9 +58,9 @@
 
 /* Tab border for default tab style */
 .tabbrowser-tab {
-	border-top: 1px solid var(--tabs-border) !important;
-	border-left: 1px solid var(--tabs-border) !important;
-	border-right: 1px solid var(--tabs-border) !important;
+	/*border-top: 1px solid black !important;*/
+	/*border-left: 1px solid black !important;*/
+	/*border-right: 1px solid black !important;*/
 }
 .tabbrowser-tab .tab-background {
 	border: unset !important;

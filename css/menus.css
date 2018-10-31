@@ -8,23 +8,23 @@ popup, menupopup, panel {
 
 /* Dark website identitity popup */
 #identity-popup-mainView {
-	color: var(--lwt-text-color) !important;
-	background: hsl(240, 1%, 20%) /* var(--toolbar-bgcolor) */ !important;
+	color: white !important;
+	background: hsl(240, 1%, 20%) !important;
 }
 
 
 /* Dark downloads panel */
 panelmultiview panelview richlistbox {
-	background: hsl(240, 1%, 20%) /* var(--toolbar-bgcolor) */ !important;
-    color: var(--lwt-text-color) !important;
+    background: hsl(240, 1%, 20%) !important;
+    color: white !important;
 }
 #emptyDownloads {
-    background: var(--url-and-searchbar-background-color) !important;
-    color: var(--lwt-text-color) !important;
+    background: rgb(71, 71, 73) !important;
+    color: white !important;
 }
 #downloadsFooterButtons {
-    background: var(--toolbar-bgcolor) !important;
-    color: var(--lwt-text-color) !important;
+    background: hsl(240, 1%, 20%) !important;
+    color: white !important;
 }
 
 
@@ -33,37 +33,36 @@ panelmultiview panelview richlistbox {
 	filter: invert(72%) !important;
 }
 .panel-arrowcontent, .panel-subview-body, #appMenu-zoomReset-button, .subviewbutton {
-	color: var(--lwt-text-color) !important;
-	background-color: var(--url-and-searchbar-background-color) !important;
+	color: white !important;
+	background-color: rgb(71, 71, 73) !important;
 }
 .panel-subview-footer,[class^="PanelUI-"] {
-	color: var(--lwt-text-color) !important;
-	background: var(--toolbar-bgcolor) !important;
+	color: white !important;
+	background: hsl(240, 1%, 20%) !important;
 }
 .subviewbutton::after, .subviewbutton-nav::after {
-	color: var(--lwt-text-color) !important;
-	fill: var(--lwt-text-color) !important;
+	color: white !important;
+	fill: white !important;
 	filter: opacity(.5) !important;
 }
 .panel-arrowcontent > textbox {
-	color: var(--lwt-text-color) !important;
-	background: var(--toolbar-bgcolor) !important;`
+	color: white !important;
+	background: hsl(240, 1%, 20%) !important;`
 }
 
 
 /* Darken right-click menus and bookmarks toolbar dropdowns */
-/* (NB: theme variables don't work in devtools) */
 menupopup, popup,
 popup > menu > menupopup,
 menupopup > menu > menupopup {
 	-moz-appearance: none !important;
-	background: hsl(240, 1%, 20%) /* var(--toolbar-bgcolor) */ !important;
+	background: hsl(240, 1%, 20%) !important;
 	border: 1px solid black !important;
-	/*padding: 4px 0px 4px 0px  !important;*/
+	/*padding: 4px 0px 4px 0px !important;*/
 }
 menupopup menuseparator {
 	-moz-appearance: none !important;
-	background: white /*var(--lwt-text-color) */ !important;
+	background: white !important;
 	filter: opacity(.5);
 	/*margin: 3px 10px 3px 10px !important;*/
 	padding: 0 !important;
@@ -71,19 +70,19 @@ menupopup menuseparator {
 	border-color: transparent !important;
 }
 menugroup {
-	background: hsl(240, 1%, 20%) /* var(--toolbar-bgcolor) */ !important;
+	background: hsl(240, 1%, 20%) !important;
 }
 menupopup menu, menuitem {
-	color: white /* var(--lwt-text-color) */ !important;
+	color: white !important;
 	/*filter: opacity(.75);*/
 }
 menupopup menu:hover, menuitem:hover {
-	color: white /* var(--lwt-text-color) */ !important;
-	background: hsl(240, 1%, 20%) /* var(--toolbar-bgcolor) */ !important;
+	color: white !important;
+	background: hsl(240, 1%, 20%) !important;
 	/*filter: opacity(.75);*/
 }
 .menu-accel {
-	color: white /* var(--lwt-text-color) */ !important;
+	color: white !important;
 	filter: opacity(.5) !important;
 }
 
@@ -91,12 +90,12 @@ menupopup menu:hover, menuitem:hover {
 menuitem > .menu-iconic-text, menuitem:hover > .menu-iconic-text {
 	filter: opacity(.8) !important;
 }
-menu[disabled], menuitem[disabled] {
+menu:disabled, menuitem:disabled {
 	-moz-appearance: none !important;
 	filter: opacity(.5) !important;
 }
-menu[disabled]:hover, menuitem[disabled]:hover {
-	background: rgba(0,127,255,.4) !important;
+menu:disabled:hover, menuitem:disabled:hover {
+	background: rgba(0, 127, 255, .4) !important;
 }
 
 /* Dim bookmarks for unloaded tabs */

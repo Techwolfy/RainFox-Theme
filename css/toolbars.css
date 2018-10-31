@@ -5,6 +5,12 @@
   font-size: 12px !important;
 }
 
+/* Set location bar text highlight color */
+#main-window[uidensity="compact"] :-moz-any(.searchbar-textbox, #urlbar) ::selection{
+  color: white;
+  background: rgb(86, 117, 185);
+}
+
 /* Move location bar dropmarker to end */
 .urlbar-history-dropmarker {
 	-moz-box-ordinal-group: 100 !important;
@@ -49,8 +55,8 @@
 
 /* Dark find bar textbox */
 .findbar-textbox {
-	color: var(--lwt-text-color) !important;
-	background: var(--url-and-searchbar-background-color) !important;
+	color: white !important;
+	background: rgb(71, 71, 73) !important;
 }
 
 /* Flat find bar buttons */
@@ -63,5 +69,5 @@
 	margin-left: 6px !important;
 }
 .findbar-find-previous:hover, .findbar-find-next:hover {
-	background: var(--toolbarbutton-hover-background)  !important;
+	background: hsla(0, 0, 70%, .4) !important;
 }
