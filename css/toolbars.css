@@ -2,13 +2,13 @@
 
 /* Decrease location bar font size in compact mode */
 #main-window[uidensity="compact"] :-moz-any(.searchbar-textbox, #urlbar) {
-  font-size: 12px !important;
+	font-size: 12px !important;
 }
 
 /* Set location bar text highlight color */
 #main-window[uidensity="compact"] :-moz-any(.searchbar-textbox, #urlbar) ::selection{
-  color: white;
-  background: rgb(86, 117, 185);
+	color: white;
+	background: rgb(86, 117, 185);
 }
 
 /* Move location bar dropmarker to end */
@@ -18,27 +18,27 @@
 
 /* Decrease location bar identity box padding (note: arrowpanel popup is not offset! fix?) */
 #identity-box {
-  padding-inline-start: 4px !important;
+	padding-inline-start: 4px !important;
 }
 
 /* Decrease location bar icon size in compact mode */
 #main-window[uidensity="compact"] .urlbar-icon {
-  width: 22px !important;
-  height: 22px !important;
-  padding: 3px !important;
+	width: 22px !important;
+	height: 22px !important;
+	padding: 3px !important;
 }
 
 /* Decrease search box icon padding in compact node */
 #main-window[uidensity="compact"] .searchbar-search-icon {
-  margin-inline-start: 4px !important;
-  margin-inline-end: 4px !important;
+	margin-inline-start: 4px !important;
+	margin-inline-end: 4px !important;
 }
 
 /* Make location bar dropmarker always visible */
 #urlbar .autocomplete-history-dropmarker,
 #urlbar .urlbar-history-dropmarker,
 #urlbar:not(:hover) > .urlbar-textbox-container > .urlbar-history-dropmarker {
-  opacity: 1 !important;
+	opacity: 1 !important;
 }
 
 
@@ -61,9 +61,9 @@
 
 /* Flat find bar buttons */
 .findbar-find-previous, .findbar-find-next {
-    border: none !important;
-    background: none !important;
-    border-radius: 2px !important;
+	border: none !important;
+	background: none !important;
+	border-radius: 2px !important;
 }
 .findbar-find-previous {
 	margin-left: 6px !important;

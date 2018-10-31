@@ -15,16 +15,16 @@ popup, menupopup, panel {
 
 /* Dark downloads panel */
 panelmultiview panelview richlistbox {
-    background: hsl(240, 1%, 20%) !important;
-    color: white !important;
+	background: hsl(240, 1%, 20%) !important;
+	color: white !important;
 }
 #emptyDownloads {
-    background: rgb(71, 71, 73) !important;
-    color: white !important;
+	background: rgb(71, 71, 73) !important;
+	color: white !important;
 }
 #downloadsFooterButtons {
-    background: hsl(240, 1%, 20%) !important;
-    color: white !important;
+	background: hsl(240, 1%, 20%) !important;
+	color: white !important;
 }
 
 

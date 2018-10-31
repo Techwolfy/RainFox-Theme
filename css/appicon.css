@@ -3,199 +3,198 @@
 /* gain space before tabs toolbar */
 #main-window[tabsintitlebar] #toolbar-menubar,
 #main-window[tabsintitlebar] #toolbar-menubar[autohide="true"][inactive="true"] ~ #TabsToolbar{
-  -moz-padding-start: 0px !important;
+	-moz-padding-start: 0px !important;
 }
 #main-window[tabsintitlebar][sizemode="maximized"] #toolbar-menubar,
 #main-window[tabsintitlebar][sizemode="maximized"] #toolbar-menubar[autohide="true"][inactive="true"] ~ #TabsToolbar{
-  -moz-padding-start: 39px !important;
+	-moz-padding-start: 39px !important;
 }
 #main-window[uidensity=compact][tabsintitlebar] #toolbar-menubar,
 #main-window[uidensity=compact][tabsintitlebar] #toolbar-menubar[autohide="true"][inactive="true"] ~ #TabsToolbar{
-  -moz-padding-start: 0px !important;
+	-moz-padding-start: 0px !important;
 }
 #main-window[uidensity=compact][tabsintitlebar][sizemode="maximized"] #toolbar-menubar,
 #main-window[uidensity=compact][tabsintitlebar][sizemode="maximized"] #toolbar-menubar[autohide="true"][inactive="true"] ~ #TabsToolbar{
-  -moz-padding-start: 37px !important;
+	-moz-padding-start: 37px !important;
 }
 #main-window[uidensity=touch][tabsintitlebar] #toolbar-menubar,
 #main-window[uidensity=touch][tabsintitlebar] #toolbar-menubar[autohide="true"][inactive="true"] ~ #TabsToolbar{
-  -moz-padding-start: 0px !important;
+	-moz-padding-start: 0px !important;
 }
 #main-window[uidensity=touch][tabsintitlebar][sizemode="maximized"] #toolbar-menubar,
 #main-window[uidensity=touch][tabsintitlebar][sizemode="maximized"] #toolbar-menubar[autohide="true"][inactive="true"] ~ #TabsToolbar{
-  -moz-padding-start: 45px !important;
+	-moz-padding-start: 45px !important;
 }
 
 /* cheat main menu button into title bar */
-#main-window[tabsintitlebar] #nav-bar  #PanelUI-button {
-  -moz-appearance: none !important;
-  -moz-box-ordinal-group: 0 !important;
-  position: fixed !important;
+#main-window[tabsintitlebar] #nav-bar	#PanelUI-button {
+	-moz-appearance: none !important;
+	-moz-box-ordinal-group: 0 !important;
+	position: fixed !important;
 }
-#main-window[tabsintitlebar][sizemode="normal"] #nav-bar  #PanelUI-button {
-  top: 0px !important;
+#main-window[tabsintitlebar][sizemode="normal"] #nav-bar	#PanelUI-button {
+	top: 0px !important;
 }
-#main-window[tabsintitlebar][sizemode="maximized"] #nav-bar  #PanelUI-button {
-  top: 8px !important;
+#main-window[tabsintitlebar][sizemode="maximized"] #nav-bar	#PanelUI-button {
+	top: 8px !important;
 }
 @media (min-resolution: 110dpi) {
-	#main-window[tabsintitlebar][sizemode="maximized"] #nav-bar  #PanelUI-button {
-	  top: 6px !important;
+	#main-window[tabsintitlebar][sizemode="maximized"] #nav-bar	#PanelUI-button {
+		top: 6px !important;
 	}
 }
 @media (min-resolution: 120dpi) {
-	#main-window[tabsintitlebar][sizemode="maximized"] #nav-bar  #PanelUI-button {
-	  top: 5px !important;
+	#main-window[tabsintitlebar][sizemode="maximized"] #nav-bar	#PanelUI-button {
+		top: 5px !important;
 	}
 }
 @media (min-resolution: 140dpi) {
-	#main-window[tabsintitlebar][sizemode="normal"] #nav-bar  #PanelUI-button {
-	  top: 0px !important;
+	#main-window[tabsintitlebar][sizemode="normal"] #nav-bar	#PanelUI-button {
+		top: 0px !important;
 	}
-	#main-window[tabsintitlebar][sizemode="maximized"] #nav-bar  #PanelUI-button {
-	  top: 4px !important;
+	#main-window[tabsintitlebar][sizemode="maximized"] #nav-bar	#PanelUI-button {
+		top: 4px !important;
 	}
 }
 @media (min-resolution: 160dpi) {
-	#main-window[tabsintitlebar][sizemode="maximized"] #nav-bar  #PanelUI-button {
-	  top: 2px !important;
+	#main-window[tabsintitlebar][sizemode="maximized"] #nav-bar	#PanelUI-button {
+		top: 2px !important;
 	}
 }
 @media (-moz-windows-classic) {
-	#main-window[tabsintitlebar][sizemode="maximized"] #nav-bar  #PanelUI-button {
-	  top: 2px !important;
+	#main-window[tabsintitlebar][sizemode="maximized"] #nav-bar	#PanelUI-button {
+		top: 2px !important;
 	}
 }
-#main-window[tabsintitlebar][inFullscreen] #nav-bar  #PanelUI-button {
-  top: 0px !important;
+#main-window[tabsintitlebar][inFullscreen] #nav-bar	#PanelUI-button {
+	top: 0px !important;
 }
 
-#main-window[tabsintitlebar] #nav-bar  #PanelUI-button #PanelUI-menu-button {
-  background-clip: padding-box !important;
-  padding: 0 4px 0 !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  -moz-padding-start: 4px !important;
-  -moz-padding-end: 4px !important;
-  height: 28px /* var(--tab-min-height) - 1 */ !important;
-  border-radius: 0 !important;
-  border: none !important;
+#main-window[tabsintitlebar] #nav-bar	#PanelUI-button #PanelUI-menu-button {
+	background-clip: padding-box !important;
+	padding: 0 4px 0 !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	-moz-padding-start: 4px !important;
+	-moz-padding-end: 4px !important;
+	height: 28px /* var(--tab-min-height) - 1 */ !important;
+	border-radius: 0 !important;
+	border: none !important;
 }
 
 /* hide button in fullscreen mode, if toolbars get automatically hidden */
-#main-window[tabsintitlebar] #navigator-toolbox[inFullscreen="true"][style*="margin-top: -"] #nav-bar  #PanelUI-button {
-  visibility: collapse !important;
+#main-window[tabsintitlebar] #navigator-toolbox[inFullscreen="true"][style*="margin-top: -"] #nav-bar	#PanelUI-button {
+	visibility: collapse !important;
 }
 
 /* dropmarker icon / arrow */
-#main-window[tabsintitlebar] #nav-bar  #PanelUI-button #PanelUI-menu-button {
-  list-style-image: unset !important;
-  -moz-image-region: unset !important;
+#main-window[tabsintitlebar] #nav-bar	#PanelUI-button #PanelUI-menu-button {
+	list-style-image: unset !important;
+	-moz-image-region: unset !important;
 }
 
-#main-window[tabsintitlebar] #nav-bar  #PanelUI-button .toolbarbutton-icon {
-  list-style-image:  url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIzMnB4IiBoZWlnaHQ9IjMycHgiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIHhtbDpzcGFjZT0icHJlc2VydmUiPiAgPGltYWdlIGlkPSJpbWFnZTAiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgeD0iMCIgeT0iMCIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFDQUFBQUFnQ0FRQUFBRFpjN0ovQUFBQUJHZEJUVUVBQUxHUEMveGhCUUFBQUNCalNGSk4gQUFCNkpnQUFnSVFBQVBvQUFBQ0E2QUFBZFRBQUFPcGdBQUE2bUFBQUYzQ2N1bEU4QUFBQUFtSkxSMFFBLzRlUHpMOEFBQVhyU1VSQiBWRWpIWlpWYmIxeFhHWWFmdGZlYVBYdk9CNC9IcHhrN3lkaXhuYVNoVHBvMGFocGJhdFFXcXBSZTBDcFhJS1FLSkpEZ3JsS0VCT29mIGdCdHVFQkFoZ1JBTmQ1VUtGRldSY25BYko3R2R4RTVzSjNVY24rMlo4ZGd6OXN6c21UMzd3SVU5Z0dDdHV5V3RaNzNmdXo2OW45QnggY1dqb0hVZDYycXIyMURxTDB2b1RoSC9WZFQ5QWxUeEZHbjVjWVlSSUJDT3ZWQytzdFpWQjRrRWlFTWdhQUpyL1hQZVIxTzBpV1N5YiBuUDk4N3c4eUtlMnIxZXd1UUEwWFpEaDZPalZnN2paRXRlQ01NMGtEQUFrQTNRTlh2dE9lV1orOHQ0ckhEY2lSMCsrZEhoaklHWjkvIHZvRUFCMXhFUjhlRjgwT3hyYm5sVzB4NDNTQTcvd1VJRGgwLyt4cGRnOXQwWXA3THZIR0pieEhjSEN2VjJNWGNmd0k3YTI4SGgwNTAgRFU2Mi9ORnhKOVdEWXdsNFFvUHZmb01lL0FQSjExL0puUG5vNU1BWnAvV1hDNytmZWpaUEVRUXVnRmxjKzh2czVhTTlyNTd0bW1IVSBzUi91QTFRRTBYTWpQeHNKOU9GRzZ2MnhEMDRlSFNLNmFmN2k3dFFvc3hSd21nb3dqTHFTK1BZSnVycmpFOFdIcS9idVBpQkV4N3R2IHZuK09CRW80ZUtRdDNva09wZHFERjV2NXFCV1dleFlXRHVCU3g5b01uMDMzOVBpU0xYSTBXMWpCQkpWV09yOS84Y3hKZklCVXZDZ0EgMGp4dC9qajhrMHg3eDVSWktsRTlVS0dXZlg4TERhZFNrVU94cmUyYmEyeUFTbGN3L2FPTG1XUDhlemtJUERJZWp2VDRYenJWK3MvYyAvRExiQVBpSUVhdkVvNTF2cGZGbDNOSGMraUtHUWlnZVNVU2FaZFl4c0FBVWdrVHdUL2luZldnQUtDMnR2WDFxTDJIYm9BcXB3eGNHIGFjVXZDYmRHQXhFQUN3Y0h0OWthYk85OU12K2I4Yld2RHdwUTllaEEzNnVEV3ZwQ2l5c0ZJakdVbHUxV1dSSk9SZ0o2RXdES3ZnbmsgZDM4Kys0Y3Z6SzlpMDZtTmFRQW5SOTUvdnZPdG8vMmRRZ0t5SjVGSWJ1N0lTRFFlMVRSd3NYQ1JCOWVyNXJXMVR4K2JENWk2dkhhTSBDbi9udHQwbzNjMWZySjJLMDdLdk1KRk1KemUzbEhEQTcxTUV1RGlBamdhc1ZuKzMrT3ZKelRHbTJRcUphR2czYW1ncTVGbWF6eU9hIFpvZjhxYWdXbGdHcFNVWFpWNkFoZ0xwemZmdnEvTE1uUEtXa0pEeHBKK1ZhN3J3OVQ1V3RiTmwybWszczhZWUMwYURVMEVBQkY0R0QgZzRKTFZFa3pvOXF0SnlJZkhiNTgzSnUrdGZQaStremVxTEhyMUV6VGR3Q3cyRlh6VWxxVzFYQWRBSmNHVlZRMDVlMTRPdk5PUFhqbyBVcXlsbnhUaDRhVTdLemUrTkxKNDIzUzkrVW1VV0xSZFd6NDMrbXBsSzQ1QTROREFSRVhYVHgwYURQb0VTU1JRdjc1NUxaZXQ0Rlg3IHZubEVCSnVBZkcyamlpSHJwYldkUXFVYkJROHVsdXRnQ0FYcDlYVUI1TG0yZlB2aGpiSGNHRFVHZnpyeXpoRFJKbUNsYUJRcFNVcnIgeFlYZElRUVNtenBnT1laQW1FNjJkcU40ZFhGeW5Idk1zcFBNZkRqOHcrSDIzcXJpd1FOVTNPY2xhNXVTcEpqYmVyRHhYcThNU2l4YyA0YUlJd1o0enZmZHA5czhMcFJrZXN3U1hUbjc0MmhzajRaY3N2VVFjZ0lXdCtYVW5UMUd5WitWdnJUek92UnlVcU5qWW1IalJYZDBLIG0vMk5WU25ia3FIWDllOE52SHhHOUZzZUF4VUJOQmhmbjFpdUZTaExkbEMrZlBaSjVsaGE4eWg0Y0RBcElaVk0rTHZLcFVDdHgyZEcgbFE1L0xFNmlxalFBRFFWWUtudzJOL3VFQWxWSkJkZDUrdGZEYjJZdUh2TGl4NktPQVNMdXljUzhzYVpoQmtVc1ZPSW9TRXI4WS9tTCBHWjZ6UTEybFFSMm5LT2NqcDZJZFFRdVRCaFlDZ3dvR1ZRd3E3TEJOa1FwK3ZLZ28zRjcrK043R0tITnNZYW1BZ3cwcjNtMy84VmliIHo4S0RGd2NiQ3djVmlVa2RCVDhSTkFJSTdtOWV1Zi9vRG85WXB3YnFRWkxZV0RQV21xZmZsd3pwdUFkN1A1M3F1QWg4Nkdqa0dGdTQgTW43M0poTXNzSWZUQkFnYU5LZy9kZWFFb250MVIycjQwZERRVUZEUlVCSFVuQmUxejFZK25wZ1pZNElGdHZlalN4VUloQ3NhTktoUyBYaXJkck16VlZKS2VnT1pCQldwNGtkaGtpM2VXZi92azZrUmhqRWM4cDBCOTMxNGhEaVE0SHJ6RWFLT1BvMzM5dzkxOWJTbC9TUE1vIEhneW5iSzZWeDFmR1ZwZSs1Z1h6YkZBUWRkZitINENMQ3hwQldtbW5pNlRlMWhxSzZ3RTFSdEhPMVZkTHhpWTUxc2xTWUUvVTJaOVcgL3dlUStBZ1NvNFVvTFFUUWtZQkZuVEpiRkNsUXBFeE5OUDR6QlA0RlZtR1FPK0dTTzB3QUFBQWxkRVZZZEdSaGRHVTZZM0psWVhSbCBBREl3TVRjdE1UQXRNakZVTURNNk1qTTZOVE10TURjNk1EQThoUHJPQUFBQUpYUkZXSFJrWVhSbE9tMXZaR2xtZVFBeU1ERTNMVEV3IExUSXhWREF6T2pJek9qVXpMVEEzT2pBd1RkbENjZ0FBQUJsMFJWaDBVMjltZEhkaGNtVUFRV1J2WW1VZ1NXMWhaMlZTWldGa2VYSEogWlR3QUFBQUFTVVZPUks1Q1lJST0iLz4KPC9zdmc+') !important;
-  background: unset !important;
-  box-shadow: unset !important;
+#main-window[tabsintitlebar] #nav-bar	#PanelUI-button .toolbarbutton-icon {
+	list-style-image:	url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIzMnB4IiBoZWlnaHQ9IjMycHgiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIHhtbDpzcGFjZT0icHJlc2VydmUiPiAgPGltYWdlIGlkPSJpbWFnZTAiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgeD0iMCIgeT0iMCIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFDQUFBQUFnQ0FRQUFBRFpjN0ovQUFBQUJHZEJUVUVBQUxHUEMveGhCUUFBQUNCalNGSk4gQUFCNkpnQUFnSVFBQVBvQUFBQ0E2QUFBZFRBQUFPcGdBQUE2bUFBQUYzQ2N1bEU4QUFBQUFtSkxSMFFBLzRlUHpMOEFBQVhyU1VSQiBWRWpIWlpWYmIxeFhHWWFmdGZlYVBYdk9CNC9IcHhrN3lkaXhuYVNoVHBvMGFocGJhdFFXcXBSZTBDcFhJS1FLSkpEZ3JsS0VCT29mIGdCdHVFQkFoZ1JBTmQ1VUtGRldSY25BYko3R2R4RTVzSjNVY24rMlo4ZGd6OXN6c21UMzd3SVU5Z0dDdHV5V3RaNzNmdXo2OW45QnggY1dqb0hVZDYycXIyMURxTDB2b1RoSC9WZFQ5QWxUeEZHbjVjWVlSSUJDT3ZWQytzdFpWQjRrRWlFTWdhQUpyL1hQZVIxTzBpV1N5YiBuUDk4N3c4eUtlMnIxZXd1UUEwWFpEaDZPalZnN2paRXRlQ01NMGtEQUFrQTNRTlh2dE9lV1orOHQ0ckhEY2lSMCsrZEhoaklHWjkvIHZvRUFCMXhFUjhlRjgwT3hyYm5sVzB4NDNTQTcvd1VJRGgwLyt4cGRnOXQwWXA3THZIR0pieEhjSEN2VjJNWGNmd0k3YTI4SGgwNTAgRFU2Mi9ORnhKOVdEWXdsNFFvUHZmb01lL0FQSjExL0puUG5vNU1BWnAvV1hDNytmZWpaUEVRUXVnRmxjKzh2czVhTTlyNTd0bW1IVSBzUi91QTFRRTBYTWpQeHNKOU9GRzZ2MnhEMDRlSFNLNmFmN2k3dFFvc3hSd21nb3dqTHFTK1BZSnVycmpFOFdIcS9idVBpQkV4N3R2IHZuK09CRW80ZUtRdDNva09wZHFERjV2NXFCV1dleFlXRHVCU3g5b01uMDMzOVBpU0xYSTBXMWpCQkpWV09yOS84Y3hKZklCVXZDZ0EgMGp4dC9qajhrMHg3eDVSWktsRTlVS0dXZlg4TERhZFNrVU94cmUyYmEyeUFTbGN3L2FPTG1XUDhlemtJUERJZWp2VDRYenJWK3MvYyAvRExiQVBpSUVhdkVvNTF2cGZGbDNOSGMraUtHUWlnZVNVU2FaZFl4c0FBVWdrVHdUL2luZldnQUtDMnR2WDFxTDJIYm9BcXB3eGNHIGFjVXZDYmRHQXhFQUN3Y0h0OWthYk85OU12K2I4Yld2RHdwUTllaEEzNnVEV3ZwQ2l5c0ZJakdVbHUxV1dSSk9SZ0o2RXdES3ZnbmsgZDM4Kys0Y3Z6SzlpMDZtTmFRQW5SOTUvdnZPdG8vMmRRZ0t5SjVGSWJ1N0lTRFFlMVRSd3NYQ1JCOWVyNXJXMVR4K2JENWk2dkhhTSBDbi9udHQwbzNjMWZySjJLMDdLdk1KRk1KemUzbEhEQTcxTUV1RGlBamdhc1ZuKzMrT3ZKelRHbTJRcUphR2czYW1ncTVGbWF6eU9hIFpvZjhxYWdXbGdHcFNVWFpWNkFoZ0xwemZmdnEvTE1uUEtXa0pEeHBKK1ZhN3J3OVQ1V3RiTmwybWszczhZWUMwYURVMEVBQkY0R0QgZzRKTFZFa3pvOXF0SnlJZkhiNTgzSnUrdGZQaStremVxTEhyMUV6VGR3Q3cyRlh6VWxxVzFYQWRBSmNHVlZRMDVlMTRPdk5PUFhqbyBVcXlsbnhUaDRhVTdLemUrTkxKNDIzUzkrVW1VV0xSZFd6NDMrbXBsSzQ1QTROREFSRVhYVHgwYURQb0VTU1JRdjc1NUxaZXQ0Rlg3IHZubEVCSnVBZkcyamlpSHJwYldkUXFVYkJROHVsdXRnQ0FYcDlYVUI1TG0yZlB2aGpiSGNHRFVHZnpyeXpoRFJKbUNsYUJRcFNVcnIgeFlYZElRUVNtenBnT1laQW1FNjJkcU40ZFhGeW5Idk1zcFBNZkRqOHcrSDIzcXJpd1FOVTNPY2xhNXVTcEpqYmVyRHhYcThNU2l4YyA0YUlJd1o0enZmZHA5czhMcFJrZXN3U1hUbjc0MmhzajRaY3N2VVFjZ0lXdCtYVW5UMUd5WitWdnJUek92UnlVcU5qWW1IalJYZDBLIG0vMk5WU25ia3FIWDllOE52SHhHOUZzZUF4VUJOQmhmbjFpdUZTaExkbEMrZlBaSjVsaGE4eWg0Y0RBcElaVk0rTHZLcFVDdHgyZEcgbFE1L0xFNmlxalFBRFFWWUtudzJOL3VFQWxWSkJkZDUrdGZEYjJZdUh2TGl4NktPQVNMdXljUzhzYVpoQmtVc1ZPSW9TRXI4WS9tTCBHWjZ6UTEybFFSMm5LT2NqcDZJZFFRdVRCaFlDZ3dvR1ZRd3E3TEJOa1FwK3ZLZ28zRjcrK043R0tITnNZYW1BZ3cwcjNtMy84VmliIHo4S0RGd2NiQ3djVmlVa2RCVDhSTkFJSTdtOWV1Zi9vRG85WXB3YnFRWkxZV0RQV21xZmZsd3pwdUFkN1A1M3F1QWg4Nkdqa0dGdTQgTW43M0poTXNzSWZUQkFnYU5LZy9kZWFFb250MVIycjQwZERRVUZEUlVCSFVuQmUxejFZK25wZ1pZNElGdHZlalN4VUloQ3NhTktoUyBYaXJkck16VlZKS2VnT1pCQldwNGtkaGtpM2VXZi92azZrUmhqRWM4cDBCOTMxNGhEaVE0SHJ6RWFLT1BvMzM5dzkxOWJTbC9TUE1vIEhneW5iSzZWeDFmR1ZwZSs1Z1h6YkZBUWRkZitINENMQ3hwQldtbW5pNlRlMWhxSzZ3RTFSdEhPMVZkTHhpWTUxc2xTWUUvVTJaOVcgL3dlUStBZ1NvNFVvTFFUUWtZQkZuVEpiRkNsUXBFeE5OUDR6QlA0RlZtR1FPK0dTTzB3QUFBQWxkRVZZZEdSaGRHVTZZM0psWVhSbCBBREl3TVRjdE1UQXRNakZVTURNNk1qTTZOVE10TURjNk1EQThoUHJPQUFBQUpYUkZXSFJrWVhSbE9tMXZaR2xtZVFBeU1ERTNMVEV3IExUSXhWREF6T2pJek9qVXpMVEEzT2pBd1RkbENjZ0FBQUJsMFJWaDBVMjltZEhkaGNtVUFRV1J2WW1VZ1NXMWhaMlZTWldGa2VYSEogWlR3QUFBQUFTVVZPUks1Q1lJST0iLz4KPC9zdmc+') !important;
+	background: unset !important;
+	box-shadow: unset !important;
 }
 
 
 /* adjust button badge stack */
-#main-window[tabsintitlebar] #nav-bar  :-moz-any(#PanelUI-button,#PanelUI-menu-button):not([checked]):not([open]):not(:active) > .toolbarbutton-badge-stack,
-#main-window[tabsintitlebar] #nav-bar  :-moz-any(#PanelUI-button,#PanelUI-menu-button):not([disabled=true]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-badge-stack,
-#main-window[tabsintitlebar] #nav-bar  :-moz-any(#PanelUI-button,#PanelUI-menu-button):not([disabled=true]):-moz-any([open],[checked],:hover:active) > .toolbarbutton-badge-stack{
-  background: unset !important;
-  border-color: unset !important;
-  border: none !important;
-  box-shadow: unset !important;
+#main-window[tabsintitlebar] #nav-bar	:-moz-any(#PanelUI-button,#PanelUI-menu-button):not([checked]):not([open]):not(:active) > .toolbarbutton-badge-stack,
+#main-window[tabsintitlebar] #nav-bar	:-moz-any(#PanelUI-button,#PanelUI-menu-button):not([disabled=true]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-badge-stack,
+#main-window[tabsintitlebar] #nav-bar	:-moz-any(#PanelUI-button,#PanelUI-menu-button):not([disabled=true]):-moz-any([open],[checked],:hover:active) > .toolbarbutton-badge-stack{
+	background: unset !important;
+	border-color: unset !important;
+	border: none !important;
+	box-shadow: unset !important;
 }
 
 /* adjust button badge */
-#main-window[tabsintitlebar] #nav-bar  #PanelUI-button #PanelUI-menu-button .toolbarbutton-badge-stack .toolbarbutton-badge  {
-  -moz-margin-end: 2px !important;
-  margin-top: 0px !important;
+#main-window[tabsintitlebar] #nav-bar	#PanelUI-button #PanelUI-menu-button .toolbarbutton-badge-stack .toolbarbutton-badge	{
+	-moz-margin-end: 2px !important;
+	margin-top: 0px !important;
 }
 
 /* button color/border */
 
 /* blue (default) */
-#main-window[tabsintitlebar] #nav-bar  #PanelUI-button #PanelUI-menu-button {
-  /*background-image: linear-gradient(rgb(0, 173, 238), rgb(0, 127, 255) 95%) !important;*/
-  background-image: linear-gradient(rgb(0, 77, 174), rgb(0, 63, 191) 95%) !important;
-  /* background-image: linear-gradient(rgb(0, 0, 127), rgb(0, 31, 95) 95%) !important; */
-  filter: opacity(90%) !important;
+#main-window[tabsintitlebar] #nav-bar	#PanelUI-button #PanelUI-menu-button {
+	/*background-image: linear-gradient(rgb(0, 173, 238), rgb(0, 127, 255) 95%) !important;*/
+	background-image: linear-gradient(rgb(0, 77, 174), rgb(0, 63, 191) 95%) !important;
+	/* background-image: linear-gradient(rgb(0, 0, 127), rgb(0, 31, 95) 95%) !important; */
+	filter: opacity(90%) !important;
 }
-#main-window[tabsintitlebar] #nav-bar  #PanelUI-button #PanelUI-menu-button:hover:not(:active):not([open]){
-  /*background-image: radial-gradient(farthest-side at center bottom, rgba(252, 240, 89, .5) 10%, rgba(252, 240, 89, 0) 70%),
+#main-window[tabsintitlebar] #nav-bar	#PanelUI-button #PanelUI-menu-button:hover:not(:active):not([open]){
+	/*background-image: radial-gradient(farthest-side at center bottom, rgba(252, 240, 89, .5) 10%, rgba(252, 240, 89, 0) 70%),
 					radial-gradient(farthest-side at center bottom, rgb(236, 133, 0), rgba(255, 229, 172, 0)),
 					linear-gradient(rgb(246, 170, 69), rgb(209, 74, 0) 95%) !important;*/
-  filter: opacity(100%) !important;
+	filter: opacity(100%) !important;
 }
-#main-window[tabsintitlebar] #nav-bar  #PanelUI-button #PanelUI-menu-button:-moz-any(:hover:active,[open]){
-  /*background-image: linear-gradient(rgb(246, 170, 69), rgb(209, 74, 0) 95%) !important;*/
-  filter: opacity(80%) !important;
+#main-window[tabsintitlebar] #nav-bar	#PanelUI-button #PanelUI-menu-button:-moz-any(:hover:active,[open]){
+	/*background-image: linear-gradient(rgb(246, 170, 69), rgb(209, 74, 0) 95%) !important;*/
+	filter: opacity(80%) !important;
 }
 
 /*private browsing - purple */
 #main-window[privatebrowsingmode=temporary][tabsintitlebar] #nav-bar #PanelUI-button #PanelUI-menu-button{
-  background-image: linear-gradient(rgb(153, 38, 211), rgb(105, 19, 163) 95%) !important;
-  filter: opacity(90%);
+	background-image: linear-gradient(rgb(153, 38, 211), rgb(105, 19, 163) 95%) !important;
+	filter: opacity(90%);
 }
 #main-window[privatebrowsingmode=temporary][tabsintitlebar] #nav-bar #PanelUI-button #PanelUI-menu-button:hover:not(:active):not([open]){
-  /*background-image: radial-gradient(farthest-side at center bottom, rgba(240, 193, 255, .5) 10%, rgba(240, 193, 255, 0) 70%),
+	/*background-image: radial-gradient(farthest-side at center bottom, rgba(240, 193, 255, .5) 10%, rgba(240, 193, 255, 0) 70%),
 					radial-gradient(farthest-side at center bottom, rgb(192, 81, 247), rgba(236, 172, 255, 0)),
 					linear-gradient(rgb(144, 20, 207), rgb(95, 0, 158) 95%) !important;*/
-  filter: opacity(100%);
+	filter: opacity(100%);
 }
 #main-window[privatebrowsingmode=temporary][tabsintitlebar] #nav-bar #PanelUI-button #PanelUI-menu-button:-moz-any(:hover:active,[open]) {
-  /*background-image: linear-gradient(rgb(144, 20, 207), rgb(95, 0, 158) 95%) !important;*/
-  filter: opacity(80%);
+	/*background-image: linear-gradient(rgb(144, 20, 207), rgb(95, 0, 158) 95%) !important;*/
+	filter: opacity(80%);
 }
 
 /* fix for 'buttons_on_navbar_squared_buttons.css' */
 #main-window[tabsintitlebar][uidensity=compact] #nav-bar #PanelUI-menu-button .toolbarbutton-badge-stack,
 #main-window[tabsintitlebar]:not([uidensity=compact]):not([uidensity=touch]) #nav-bar #PanelUI-menu-button .toolbarbutton-badge-stack,
 #main-window[tabsintitlebar][uidensity=touch] #nav-bar #PanelUI-menu-button .toolbarbutton-badge-stack {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-  width: unset !important;
-  height: 22px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	width: unset !important;
+	height: 22px !important;
 }
 
 #main-window[tabsintitlebar][uidensity=compact] #nav-bar #PanelUI-menu-button .toolbarbutton-icon,
 #main-window[tabsintitlebar]:not([uidensity=compact]):not([uidensity=touch]) #nav-bar #PanelUI-menu-button .toolbarbutton-icon,
 #main-window[tabsintitlebar][uidensity=touch] #nav-bar #PanelUI-menu-button .toolbarbutton-icon {
-  padding: 0px !important;
-  width: 16px !important;
-  height: 16px !important;
+	padding: 0px !important;
+	width: 16px !important;
+	height: 16px !important;
 }
 
 /* fix for toolbar + text mode */
 #main-window[tabsintitlebar] toolbox toolbar:not(#TabsToolbar) toolbaritem #PanelUI-menu-button,
 #main-window[tabsintitlebar] toolbox toolbar:not(#TabsToolbar) #PanelUI-menu-button,
 #main-window[tabsintitlebar] toolbox toolbar:not(#TabsToolbar) .toolbarbutton-1[type="menu-button"] #PanelUI-menu-button{
-  -moz-appearance: unset !important;
+	-moz-appearance: unset !important;
 }
 #main-window[tabsintitlebar] toolbox toolbar:not(#TabsToolbar) toolbaritem #PanelUI-menu-button .toolbarbutton-text,
 #main-window[tabsintitlebar] toolbox toolbar:not(#TabsToolbar) #PanelUI-menu-button:not([type="menu-button"]) .toolbarbutton-text,
 #main-window[tabsintitlebar] toolbox toolbar:not(#TabsToolbar) .toolbarbutton-1[type="menu-button"] #PanelUI-menu-button .toolbarbutton-text{
-  display: none !important;
+	display: none !important;
 }
 #main-window[tabsintitlebar] toolbox toolbar:not(#TabsToolbar) toolbaritem #PanelUI-menu-button:not([type="menu-button"]),
 #main-window[tabsintitlebar] toolbox toolbar:not(#TabsToolbar) #PanelUI-menu-button:not([type="menu-button"]),
 #main-window[tabsintitlebar] toolbox toolbar:not(#TabsToolbar) .toolbarbutton-1[type="menu-button"] #PanelUI-menu-button{
-  -moz-box-orient: unset !important;
-  min-width: unset !important;
+	-moz-box-orient: unset !important;
+	min-width: unset !important;
 }
 
 #main-window[tabsintitlebar] toolbox toolbar:not(#TabsToolbar) toolbaritem #PanelUI-menu-button:not(#nav-bar-overflow-button):not(#PlacesChevron) > :-moz-any(.toolbarbutton-icon,.toolbarbutton-badge-stack),
 #main-window[tabsintitlebar] toolbox toolbar:not(#TabsToolbar) #PanelUI-menu-button:not([type="menu-button"]):not(#nav-bar-overflow-button):not(#PlacesChevron) > :-moz-any(.toolbarbutton-icon,.toolbarbutton-badge-stack) {
-  opacity: 1.0 !important;
-  margin-bottom: unset !important;
+	opacity: 1.0 !important;
+	margin-bottom: unset !important;
 }
-
 
 /* Fix spacing when not maximized */
 #main-window[tabsintitlebar][sizemode="normal"] {
-  border: none !important;
+	border: none !important;
 }
