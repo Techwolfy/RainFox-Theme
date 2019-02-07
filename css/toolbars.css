@@ -1,5 +1,10 @@
 /*AGENT_SHEET*/
 
+/* Fix tab toolbar background color */
+.browser-toolbar.titlebar-color {
+	background: black;
+}
+
 /* Decrease location bar font size in compact mode */
 #main-window[uidensity="compact"] :-moz-any(.searchbar-textbox, #urlbar) {
 	font-size: 12px !important;
