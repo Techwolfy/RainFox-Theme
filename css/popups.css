@@ -17,6 +17,12 @@
 }
 
 /* Fix location bar autocomplete popup width */
+#urlbar-results {
+	width: auto !important;
+	max-width: 75vw !important;
+	margin-top: 0px !important;
+	margin-left: 0px !important;
+}
 #PopupAutoCompleteRichResult {
 	margin-left: 0px !important;
 }
