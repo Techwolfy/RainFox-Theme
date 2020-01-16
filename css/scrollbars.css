@@ -1,0 +1,17 @@
+/* AGENT_SHEET */
+
+/* Dark scrollbars in Firefox UI */
+.panel-subview-body,
+#permList,
+scrollbar {
+	scrollbar-color: rgb(121, 121, 123) hsl(240, 1%, 20%) !important;
+	scrollbar-width: thin !important;
+}
+
+/*
+.panel-subview-body:active,
+#permList:active,
+scrollbar:active {
+	scrollbar-color: rgba(0, 127, 255) hsl(240, 1%, 20%) !important;
+}
+*/

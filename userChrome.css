@@ -7,8 +7,4 @@
 @import url(./css/menus.css);
 @import url(./css/popups.css);
 @import url(./css/misc.css);
-
-/* Load custom JavaScript within the browser context (for custom scrollbars) */
-#alltabs-button {
-	-moz-binding: url("./loader.xml#js");
-}
+@import url(./css/scrollbars.css);
