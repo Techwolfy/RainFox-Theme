@@ -2,8 +2,20 @@
 
 /* Fix tab toolbar background color */
 .browser-toolbar.titlebar-color {
-	background: black;
+	background: hsl(240, 1%, 10%);
 }
+
+/* Remove space before tab bar */
+.titlebar-spacer[type="pre-tabs"],
+#main-window[sizemode="maximized"] .titlebar-spacer[type="post-tabs"] {
+    display: none !important;
+}
+
+/* Shrink space after tab bar */
+.titlebar-spacer[type="post-tabs"] {
+    width: 20px !important;
+}
+
 
 /* Decrease location bar font size in compact mode */
 #main-window[uidensity="compact"] :-moz-any(.searchbar-textbox, #urlbar) {
