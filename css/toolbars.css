@@ -11,7 +11,7 @@
 }
 
 /* Set location bar text highlight color */
-#main-window[uidensity="compact"] :-moz-any(.searchbar-textbox, #urlbar) ::selection{
+#main-window[uidensity="compact"] :-moz-any(.searchbar-textbox, #urlbar) ::selection {
 	color: white;
 	background: rgb(86, 117, 185);
 }
@@ -21,11 +21,6 @@
 	-moz-box-ordinal-group: 100 !important;
 }
 
-/* Decrease location bar identity box padding (note: arrowpanel popup is not offset! fix?) */
-#identity-box {
-	padding-inline-start: 4px !important;
-}
-
 /* Decrease location bar icon size in compact mode */
 #main-window[uidensity="compact"] .urlbar-icon {
 	width: 22px !important;
@@ -33,7 +28,7 @@
 	padding: 3px !important;
 }
 
-/* Decrease search box icon padding in compact node */
+/* Decrease search box icon padding in compact mode */
 #main-window[uidensity="compact"] .searchbar-search-icon {
 	margin-inline-start: 4px !important;
 	margin-inline-end: 4px !important;

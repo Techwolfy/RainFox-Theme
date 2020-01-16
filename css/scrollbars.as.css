@@ -17,7 +17,6 @@ scrollbar[orient="horizontal"], scrollbar[orient="horizontal"] * {
 }
 
 scrollbar thumb {
-	/*background: rgb(71, 71, 73) !important;*/
 	background: rgb(121, 121, 123) !important;
 }
 scrollbar thumb:hover, scrollbar thumb:active {
@@ -26,7 +25,6 @@ scrollbar thumb:hover, scrollbar thumb:active {
 }
 
 scrollbar scrollbarbutton {
-	/*background: rgb(71, 71, 73) !important;*/
 	background: rgb(121, 121, 123) !important;
 }
 scrollbar scrollbarbutton:hover, scrollbar scrollbarbutton:active {

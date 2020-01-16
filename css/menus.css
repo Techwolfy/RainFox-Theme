@@ -29,9 +29,6 @@ panelmultiview panelview richlistbox {
 
 
 /* Dark arrow panels (e.g. Firefox menu) */
-.panel-arrow {
-	filter: invert(72%) !important;
-}
 .panel-arrowcontent, .panel-subview-body, #appMenu-zoomReset-button, .subviewbutton {
 	color: white !important;
 	background-color: rgb(71, 71, 73) !important;
@@ -74,12 +71,10 @@ menugroup {
 }
 menupopup menu, menuitem {
 	color: white !important;
-	/*filter: opacity(.75);*/
 }
 menupopup menu:hover, menuitem:hover {
 	color: white !important;
 	background: hsl(240, 1%, 20%) !important;
-	/*filter: opacity(.75);*/
 }
 .menu-accel {
 	color: white !important;
