@@ -30,15 +30,46 @@
 	background-image: none !important;
 }
 
+/* Tab min height */
+#main-window[uidensity="compact"] {
+	--tab-min-height: 32px !important;
+}
+
 /* Tab min width */
 .tabbrowser-tab:not([pinned]) {
 	min-width: 100px !important;
+}
+
+/* Remove tab button styling */
+#main-window {
+	--tab-border-radius: 0px !important;
+}
+.tabbrowser-tab:not([pinned]) {
+	--tab-block-margin: 0px !important;
+}
+.tabbrowser-tab {
+	padding-inline: 0px !important;
+}
+.tabbrowser-tab[pinned] > .tab-stack > .tab-content {
+	padding: var(--inline-tab-padding) !important;
+}
+.tab-background {
+	margin-block: 0px !important;
+}
+#scrollbutton-down, #scrollbutton-up {
+	border-top: 0px !important;
+	border-bottom: 0px !important;
 }
 
 /* Show close buttons on hovered tabs */
 .tabbrowser-tab:not([pinned]):hover .tab-close-button {
   visibility: visible !important;
   display: block !important;
+}
+
+/* Tab mute button size */
+.tab-icon-overlay:not([pinned]):is([soundplaying], [muted], [activemedia-blocked]) {
+	padding: 0px !important;
 }
 
 

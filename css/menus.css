@@ -5,13 +5,11 @@ popup, menupopup, panel {
 	transition-duration: 0.01ms !important;
 }
 
-
 /* Dark website identitity popup */
 #identity-popup-mainView {
 	color: white !important;
 	background: hsl(240, 1%, 20%) !important;
 }
-
 
 /* Dark downloads panel */
 panelmultiview panelview richlistbox {
@@ -26,7 +24,6 @@ panelmultiview panelview richlistbox {
 	background: hsl(240, 1%, 20%) !important;
 	color: white !important;
 }
-
 
 /* Dark arrow panels (e.g. Firefox menu) */
 .panel-arrowcontent, .panel-subview-body, #appMenu-zoomReset-button, .subviewbutton {
@@ -46,7 +43,6 @@ panelmultiview panelview richlistbox {
 	color: white !important;
 	background: hsl(240, 1%, 20%) !important;`
 }
-
 
 /* Darken right-click menus and bookmarks toolbar dropdowns */
 menupopup, popup,
@@ -96,4 +92,12 @@ menu:disabled:hover, menuitem:disabled:hover {
 /* Dim bookmarks for unloaded tabs */
 menuitem[pending] > .menu-iconic-text {
 	filter: opacity(.5) !important;
+}
+
+/* Decrease menu spacing */
+menupopup > menuitem, menupopup > menu {
+  padding-block: 4px !important;
+}
+:root {
+  --arrowpanel-menuitem-padding: 4px 8px !important;
 }
