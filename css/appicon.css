@@ -93,7 +93,7 @@
 }
 
 #main-window[tabsintitlebar][sizemode="maximized"] #PanelUI-button {
-	top: 8px !important;
+	top: 0px !important;
 }
 
 @media (min-resolution: 110dpi) {

@@ -17,3 +17,9 @@ menupopup > menuitem, menupopup > menu {
 :root {
   --arrowpanel-menuitem-padding: 4px 8px !important;
 }
+
+
+/* Fix application menu offset */
+panel[id="appMenu-popup"] {
+	margin-inline: 0 !important;
+}
