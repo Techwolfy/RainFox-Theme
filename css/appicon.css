@@ -205,6 +205,7 @@
 	background-image: linear-gradient(rgb(0, 77, 174), rgb(0, 63, 191) 95%) !important;
 	/* background-image: linear-gradient(rgb(0, 0, 127), rgb(0, 31, 95) 95%) !important; */
 	filter: opacity(90%) !important;
+	width: 38px !important;
 }
 #main-window[tabsintitlebar] #nav-bar #PanelUI-button #PanelUI-menu-button:hover:not(:active):not([open]){
 	/*background-image: radial-gradient(farthest-side at center bottom, rgba(252, 240, 89, .5) 10%, rgba(252, 240, 89, 0) 70%),
