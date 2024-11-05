@@ -51,7 +51,7 @@
 	padding-inline: 0px !important;
 }
 .tabbrowser-tab[pinned] > .tab-stack > .tab-content {
-	padding: 0 var(--inline-tab-padding) !important;
+	padding: 0 8px !important;
 }
 .tab-background {
 	margin-block: 0px !important;
