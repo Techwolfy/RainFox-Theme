@@ -110,3 +110,9 @@
 	content: unset !important;
 	display: unset !important;
 }
+
+/* Tab bar height fix */
+#tabbrowser-tabs[orient="horizontal"] .tab-background,
+#tabbrowser-tabs[orient="horizontal"] {
+  min-height: unset !important;
+}
